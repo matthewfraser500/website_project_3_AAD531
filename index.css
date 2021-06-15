@@ -40,15 +40,18 @@ body {
     background-image: url("/images/banner-networking-solutions.jpg");
     background-size: cover;
     float: left;
+    max-height: 22.75em;
+    overflow: auto;
 }
 #text-box {
-    width: 49%;
+    width: 47%;
     height: 20.75em;
     background-color: white;
     text-align: left;
     font-weight: bolder;
     float: right;
     margin: 1em;
+    overflow: auto;
 }
 
 #left-div {
