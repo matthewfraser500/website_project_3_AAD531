@@ -1,0 +1,101 @@
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.intro {
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    height: 18em;
+    width: 100%;
+    background-image: url("images/banner.jpg");
+    background-size: 100%;
+}
+
+.intro h1 {
+    font-style: italic;
+}
+
+#ethernet {
+    width: 49%;
+    height: 22.75em;
+    background-image: url("/images/banner-networking-solutions.jpg");
+    background-size: cover;
+    float: left;
+}
+#text-box {
+    width: 49%;
+    height: 20.75em;
+    background-color: white;
+    text-align: left;
+    font-weight: bolder;
+    float: right;
+    margin: 1em;
+}
+
+#left-div {
+    width: 48%;
+    height: 25em;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: green;
+}
+
+#right-div {
+    width: 48%;
+    height: 25em;
+    text-align: center;
+    float: right;
+    box-sizing: border-box;
+    background-color: orange;
+}
+
+#color-space {
+    height: 1.0em;
+    width: 100%;
+    margin: auto;
+    background-color: black
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    float: left;
+  }
+
+#footer {
+    padding: 1em;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    font-size: 14px;
+    background:rgb(22, 103, 153)
+}
