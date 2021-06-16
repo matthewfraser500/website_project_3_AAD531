@@ -30,7 +30,22 @@ body {
     background-size: 100%;
 }
 
+.intro_projects {
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    height: 10em;
+    width: 100%;
+    background-image: url("images/banner.jpg");
+    background-size: 100%;
+}
+
+
 .intro h1 {
+    font-style: italic;
+}
+
+.intro_projects h1 {
     font-style: italic;
 }
 
@@ -43,6 +58,7 @@ body {
     max-height: 22.75em;
     overflow: auto;
 }
+
 #text-box {
     width: 47%;
     height: 20.75em;
@@ -54,29 +70,55 @@ body {
     overflow: auto;
 }
 
-#left-div {
-    width: 48%;
-    height: 25em;
+#left-header {
+    width: 50%;
+    height: 5em;
     float: left;
     box-sizing: border-box;
     text-align: center;
-    background-color: green;
+    background-color: black;
+    overflow: auto;
+    color: white;
 }
 
-#right-div {
-    width: 48%;
+#left-div {
+    width: 50%;
+    height: 20em;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    overflow: auto;
+    padding: 3em;
+    font-weight: bolder;
+}
+
+#right-div1 {
+    width: 50%;
     height: 25em;
     text-align: center;
     float: right;
     box-sizing: border-box;
-    background-color: orange;
+    background-image: url("/images/pfsense.png");
+    overflow: auto;
+    background-size: cover;
+}
+#right-div2 {
+    width: 50%;
+    height: 25em;
+    text-align: center;
+    float: right;
+    box-sizing: border-box;
+    background-image: url("/images/central-dashboard-0.png");
+    overflow: auto;
 }
 
-#color-space {
-    height: 1.0em;
+#color-break {
+    height: 28em;
     width: 100%;
     margin: auto;
-    background-color: black
+    background-image: url("images/banner.jpg");
+    background-size: cover;
 }
 
 .fa {
@@ -86,13 +128,13 @@ body {
     text-align: center;
     text-decoration: none;
     float: left;
-  }
+}
 
-  .fa-linkedin {
+.fa-linkedin {
     background: #007bb5;
     color: white;
     float: left;
-  }
+}
 
 #footer {
     padding: 1em;
@@ -100,5 +142,5 @@ body {
     color: white;
     overflow: hidden;
     font-size: 14px;
-    background:rgb(22, 103, 153)
+    background: rgb(22, 103, 153)
 }
