@@ -79,38 +79,44 @@ body {
     background-color: black;
     overflow: auto;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
 }
 
-#left-div {
+.left-div {
     width: 50%;
     height: 20em;
     float: left;
     box-sizing: border-box;
-    text-align: center;
     background-color: white;
-    overflow: auto;
     padding: 3em;
-    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#right-div1 {
+.left-div p {
+    font-size: 0.9vw;
+    margin: auto;
+    font-weight: 500;
+}
+
+.right-div {
     width: 50%;
     height: 25em;
     text-align: center;
     float: right;
     box-sizing: border-box;
-    background-image: url("/images/pfsense.png");
     overflow: auto;
     background-size: cover;
 }
-#right-div2 {
-    width: 50%;
-    height: 25em;
-    text-align: center;
-    float: right;
-    box-sizing: border-box;
-    background-image: url("/images/central-dashboard-0.png");
-    overflow: auto;
+
+.right-div img {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #color-break {
@@ -138,9 +144,9 @@ body {
 
 #footer {
     padding: 1em;
-    width: 100%;
+    width: 98.5%;
     color: white;
-    overflow: hidden;
+    overflow: auto;
     font-size: 14px;
-    background: rgb(22, 103, 153)
+    background: rgb(22, 103, 153);
 }
