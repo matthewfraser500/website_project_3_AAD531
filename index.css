@@ -98,10 +98,19 @@ body {
     margin-right: auto;
 }
 
+@media only screen and (max-width: 500px) {
+    .left-div p {
+        font-size: 30vw;
+        font-size: 20vh;
+    }
+}
+
 .left-div p {
-    font-size: 0.8vw;
+    font-size: 1.0vw;
+    font-size: 2.0vh;
     font-weight: 525;
     margin: auto;
+    overflow: auto;
 }
 
 .right-div {
